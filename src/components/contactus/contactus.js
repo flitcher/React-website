@@ -13,7 +13,9 @@ export default class ContactUs extends Component {
             </div>
             <div className="ten columns">
               <p className="lead">
-                Feel free to send me a message for any questions or inquiries!
+                <h2>Contact Me (Work in Progress)</h2>
+                Feel free to send me a message for any questions or inquiries
+                and I will get back to you at my earliest convenience!
               </p>
             </div>
           </div>
@@ -86,19 +88,6 @@ export default class ContactUs extends Component {
                 <br />
               </div>
             </div>
-            <aside className="four columns footer-widgets">
-              <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
-                <p className="address">
-                  {contactData.name}
-                  <br />
-                  {contactData.location} <br />
-                  {contactData.location2}
-                  <br />
-                  <span>{contactData.number}</span>
-                </p>
-              </div>
-            </aside>
           </div>
         </section>{" "}
       </React.Fragment>

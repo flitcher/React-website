@@ -13,7 +13,7 @@ export default class ContactUs extends Component {
             </div>
             <div className="ten columns">
               <p className="lead">
-                <h2>Contact Me (Work in Progress)</h2>
+                <h2>(Work in Progress)</h2>
                 Feel free to send me a message for any questions or inquiries
                 and I will get back to you at my earliest convenience!
               </p>

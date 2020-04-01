@@ -193,7 +193,7 @@ export default class Header extends Component {
           {/* End Work */}
           {/* Skills
       ----------------------------------------------- */}
-          {/* <div className="row skill">
+          <div className="row skill">
             <div className="three columns header-col">
               <h1>
                 <span>Skills</span>
@@ -203,40 +203,49 @@ export default class Header extends Component {
               <p>
                 I am well versed in backend API development and actively
                 contributing to projects everyday to broaden my knowledge on
-                various technologies
+                various technologies as well as getting my feet wet with
+                frontend frameworks like React.
               </p>
               <div className="bars">
                 <ul className="skills">
                   <li>
-                    <span className="bar-expand photoshop" />
-                    <em>Photoshop</em>
+                    <span className="bar-expand python" />
+                    <em>Python</em>
                   </li>
                   <li>
-                    <span className="bar-expand illustrator" />
-                    <em>Illustrator</em>
+                    <span className="bar-expand java" />
+                    <em>Java</em>
                   </li>
                   <li>
-                    <span className="bar-expand wordpress" />
-                    <em>Wordpress</em>
-                  </li>
-                  <li>
-                    <span className="bar-expand css" />
-                    <em>CSS</em>
+                    <span className="bar-expand java" />
+                    <em>SQL</em>
                   </li>
                   <li>
                     <span className="bar-expand html5" />
                     <em>HTML5</em>
                   </li>
                   <li>
+                    <span className="bar-expand react" />
+                    <em>React</em>
+                  </li>
+                  <li>
                     <span className="bar-expand jquery" />
-                    <em>jQuery</em>
+                    <em>Javascript</em>
+                  </li>
+                  <li>
+                    <span className="bar-expand html5" />
+                    <em>LaTeX</em>
+                  </li>
+                  <li>
+                    <span className="bar-expand html5" />
+                    <em>Markdown</em>
                   </li>
                 </ul>
-              </div> */}
-          {/* end skill-bars */}
-          {/* </div>{" "} */}
-          {/* main-col end */}
-          {/* </div>{" "} */}
+              </div>
+              {/* end skill-bars */}
+            </div>{" "}
+            {/* main-col end */}
+          </div>{" "}
           {/* End skills */}
         </section>
       </React.Fragment>

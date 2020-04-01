@@ -363,30 +363,30 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.html5 {
   width: 60%;
   -moz-animation: Java 2s ease;
   -webkit-animation: photoshop 2s ease;
 }
-.illustrator {
+.latex {
   width: 55%;
-  -moz-animation: illustrator 2s ease;
-  -webkit-animation: illustrator 2s ease;
+  -moz-animation: latex 2s ease;
+  -webkit-animation: latex 2s ease;
 }
-.wordpress {
+.react {
   width: 50%;
-  -moz-animation: wordpress 2s ease;
-  -webkit-animation: wordpress 2s ease;
+  -moz-animation: react 2s ease;
+  -webkit-animation: react 2s ease;
 }
-.css {
+.python {
   width: 90%;
-  -moz-animation: css 2s ease;
-  -webkit-animation: css 2s ease;
+  -moz-animation: python 2s ease;
+  -webkit-animation: python 2s ease;
 }
-.html5 {
+.java {
   width: 80%;
-  -moz-animation: html5 2s ease;
-  -webkit-animation: html5 2s ease;
+  -moz-animation: java 2s ease;
+  -webkit-animation: java 2s ease;
 }
 .jquery {
   width: 50%;
@@ -402,7 +402,7 @@ ul#nav li.current a {
     width: 60%;
   }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes latex {
   0% {
     width: 0px;
   }
@@ -410,7 +410,7 @@ ul#nav li.current a {
     width: 55%;
   }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes react {
   0% {
     width: 0px;
   }
@@ -418,7 +418,7 @@ ul#nav li.current a {
     width: 50%;
   }
 }
-@-moz-keyframes css {
+@-moz-keyframes python {
   0% {
     width: 0px;
   }
@@ -426,7 +426,7 @@ ul#nav li.current a {
     width: 90%;
   }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes java {
   0% {
     width: 0px;
   }
@@ -451,7 +451,7 @@ ul#nav li.current a {
     width: 60%;
   }
 }
-@-webkit-keyframes illustrator {
+@-webkit-keyframes latex {
   0% {
     width: 0px;
   }
@@ -459,7 +459,7 @@ ul#nav li.current a {
     width: 55%;
   }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes react {
   0% {
     width: 0px;
   }
@@ -467,7 +467,7 @@ ul#nav li.current a {
     width: 50%;
   }
 }
-@-webkit-keyframes css {
+@-webkit-keyframes python {
   0% {
     width: 0px;
   }
@@ -475,7 +475,7 @@ ul#nav li.current a {
     width: 90%;
   }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes java {
   0% {
     width: 0px;
   }

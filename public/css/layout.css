@@ -231,8 +231,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
 }
 #about .contact-details {
@@ -575,6 +575,9 @@ ul#nav li.current a {
 }
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
+  min-height: 215px;
+  object-fit: cover;
+  overflow: "hidden";
 }
 .portfolio-item .portfolio-item-meta {
   padding: 18px;
@@ -608,6 +611,25 @@ ul#nav li.current a {
   position: relative;
   margin: 0 auto;
 }
+.popup-modal img {
+  /* min-width: 550px; */
+  min-height: 366px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.popup-modal p span {
+  margin: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font: 12px "opensans-bold", sans-serif;
+  text-align: center;
+  color: #f06000;
+  text-decoration: solid;
+  background: #2b2b2b;
+  border-radius: 15px;
+}
+
 .popup-modal .description-box {
   padding: 12px 36px 18px 36px;
 }

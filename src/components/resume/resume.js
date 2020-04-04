@@ -161,31 +161,19 @@ export default class Header extends Component {
                 </div>
               </div>{" "}
               {/* item end */}
-              {/* <div className="row item">
+              <div className="row item">
                 <div className="twelve columns">
-                  <h3>Simon Fraser University Department of Psychology</h3>
+                  <h3>University of British Columbia (UBC)</h3>
                   <p className="info">
-                    Stastical Psychology Research Assistant <span>•</span>{" "}
-                    <em className="date">September 2017 - May 2018</em>
+                    NwHacks 2018, 2019, 2020<span>•</span>{" "}
+                    <em className="date">January</em>
                   </p>
                   <p>
-                    <p>
-                      <ul
-                        style={{ listStyleType: "circle", marginLeft: "40px" }}
-                      >
-                        <li>
-                          Planned and instructed a 6 week computer science crash
-                          crouse with over 30 students
-                        </li>
-                        <li>
-                          Created assignments for the whole class and answered
-                          question in person and online through Slack
-                        </li>
-                      </ul>
-                    </p>
+                    A 24 hour hackathon where teams of 2-5 people collaborate on
+                    an application and compete against each other for prizes.
                   </p>
                 </div>
-              </div>{" "} */}
+              </div>{" "}
               {/* item end */}
             </div>{" "}
             {/* main-col end */}

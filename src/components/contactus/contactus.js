@@ -1,5 +1,15 @@
 import React, { Component } from "react";
 export default class ContactUs extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      contactName: "",
+      contactEmail: "",
+      contactSubject: "",
+      contactMesage: ""
+    };
+  }
+
   render() {
     let contactData = this.props.contactData;
     return (
@@ -34,6 +44,7 @@ export default class ContactUs extends Component {
                       size={35}
                       id="contactName"
                       name="contactName"
+                      required
                     />
                   </div>
                   <div>
@@ -46,6 +57,7 @@ export default class ContactUs extends Component {
                       size={35}
                       id="contactEmail"
                       name="contactEmail"
+                      required
                     />
                   </div>
                   <div>
@@ -68,10 +80,13 @@ export default class ContactUs extends Component {
                       id="contactMessage"
                       name="contactMessage"
                       defaultValue={""}
+                      required
                     />
                   </div>
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit" type="submit" form="contactForm">
+                      Submit
+                    </button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
@@ -80,7 +95,11 @@ export default class ContactUs extends Component {
               </form>{" "}
               {/* Form End */}
               {/* contact-warning */}
-              <div id="message-warning"> Error boy</div>
+              <div id="message-warning">
+                {" "}
+                Please try again later. In the meantime you can contact me at
+                <a href="https://www.linkedin.com/in/kawaisim/" />{" "}
+              </div>
               {/* contact-success */}
               <div id="message-success">
                 <i className="fa fa-check" />

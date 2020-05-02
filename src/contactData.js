@@ -1,11 +1,8 @@
 let contactData = {
   name: "Quintin Sim",
-  location: "7400 Minoru Blvd",
-  location2: "Richmond, BC V6Y 3J5",
   email: "kawaisim@hotmail.com",
-  number: "(778) 886-1145",
   description:
-    "Anything from a volunteer computer science teacher at a local library to a hacker in a 24-hr hackathons to a developer for a medical system."
+    "I am a recent graduate from Simon Fraser University with a Bachelors of Science, major in Software Systems. I am most experienced in developing robusst and scalable applications with a focus on REST APIs using Python and Java. I am aspiring to become a full-stack developer with a strong passion for Artifical Intelligence and data security. If any of our interests align, please feel free to reach me on LinkedIn or via email.",
 };
 
 export default contactData;

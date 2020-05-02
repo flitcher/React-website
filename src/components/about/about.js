@@ -13,6 +13,10 @@ export default class About extends Component {
               <h2>About Me</h2>
               <p>{contactData.description}</p>
               <div className="row">
+                <div className="columns contact-details">
+                  <h2>Contact Email</h2>
+                  <p>kawaisim@hotmail.com</p>
+                </div>
                 <div className="columns download">
                   <p>
                     <a
@@ -26,7 +30,7 @@ export default class About extends Component {
                     </a>
                   </p>
                 </div>
-              </div>{" "}
+              </div>
               {/* end row */}
             </div>{" "}
             {/* end .main-col */}

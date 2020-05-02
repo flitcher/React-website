@@ -1,15 +1,5 @@
 import React, { Component } from "react";
 export default class ContactUs extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      contactName: "",
-      contactEmail: "",
-      contactSubject: "",
-      contactMesage: ""
-    };
-  }
-
   render() {
     let contactData = this.props.contactData;
     return (
@@ -53,7 +43,6 @@ export default class ContactUs extends Component {
                     </label>
                     <input
                       type="text"
-                      defaultValue={""}
                       size={35}
                       id="contactEmail"
                       name="contactEmail"
@@ -64,7 +53,6 @@ export default class ContactUs extends Component {
                     <label htmlFor="contactSubject">Subject</label>
                     <input
                       type="text"
-                      defaultValue={""}
                       size={35}
                       id="contactSubject"
                       name="contactSubject"
@@ -79,7 +67,6 @@ export default class ContactUs extends Component {
                       rows={15}
                       id="contactMessage"
                       name="contactMessage"
-                      defaultValue={""}
                       required
                     />
                   </div>

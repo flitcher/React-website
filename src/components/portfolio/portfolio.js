@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Chip from "@material-ui/core/Chip";
+
 export default class Header extends Component {
   render() {
     return (
@@ -85,8 +87,8 @@ export default class Header extends Component {
                 <span className="categories">
                   <i className="fa fa-tag">Tags</i>
                   <p>
-                    <span>Java</span>
-                    <span>Teaching</span>
+                    <Chip label="Java"></Chip>
+                    <Chip label="Teaching"></Chip>
                   </p>
                 </span>
               </div>
@@ -111,9 +113,9 @@ export default class Header extends Component {
                 <span className="categories">
                   <i className="fa fa-tag" />
                   <p>
-                    <span>React</span>
-                    <span>CSS</span>
-                    <span>HTML</span>
+                    <Chip label="JavaScript"></Chip>
+                    <Chip label="CSS"></Chip>
+                    <Chip label="HTML"></Chip>
                   </p>
                 </span>
               </div>
@@ -139,11 +141,11 @@ export default class Header extends Component {
                 </p>
                 <span className="categories">
                   <i className="fa fa-tag" />
-                  <p>
-                    <span>React</span>
-                    <span>Python</span>
-                    <span>Android</span>
-                    <span>MySQL</span>
+                  <p className="">
+                    <Chip label="React"></Chip>
+                    <Chip label="Python"></Chip>
+                    <Chip label="Android"></Chip>
+                    <Chip label="MySQL"></Chip>
                   </p>
                 </span>
               </div>
